@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Till Marriage Do Us Part</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Landing / Railway Station -->
+  <header id="station" class="section section--hero">
+    <div class="hero-image">
+      <!-- Replace with your station illustration -->
+      <img src="images/hero-railway-station.jpg" alt="Bride at railway station">
+    </div>
+    <div class="hero-copy">
+      <h1>TILL MARRIAGE DO US PART</h1>
+      <p>An 8-look womenswear collection tracing the emotional journey of an unsuccessful marriage.</p>
+      <button class="btn" data-scroll-to="map">Enter the journey</button>
+      <p class="hero-sub">Train departs every 10 minutes</p>
+    </div>
+  </header>
+
+  <!-- Train Map Navigation -->
+  <section id="map" class="section section--map">
+    <h2>The Railway Line</h2>
+    <div class="map-line">
+      <div class="map-track">
+        <div class="train-indicator"></div>
+      </div>
+      <ol class="map-stops">
+        <li data-target="stop-1">1. Introduction</li>
+        <li data-target="stop-2">2. Research</li>
+        <li data-target="stop-3">3. Design Development</li>
+        <li data-target="stop-4">4. Process</li>
+        <li data-target="stop-5">5. Lineup</li>
+        <li data-target="stop-6">6. Champagne Bubbles</li>
+        <li data-target="stop-7">7. Formality Creeps In</li>
+        <li data-target="stop-8">8. The Great Pretend</li>
+        <li data-target="stop-9">9. It All Falls Apart</li>
+        <li data-target="stop-10">10. Photoshoot</li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- Stop 1: Introduction -->
+  <section id="stop-1" class="section section--split">
+    <div class="section-media">
+      <img src="images/tie-roses.jpg" alt="Tie roses">
+    </div>
+    <div class="section-text">
+      <h2>Introduction</h2>
+      <p>“Till Marriage Do Us Part” is an 8-look womenswear collection that captures the emotional
+      journey of an unsuccessful marriage—from its romantic beginning to its fractured and heavy end.</p>
+      <!-- Add more of your text from page 5 -->
+    </div>
+  </section>
+
+  <!-- Stop 2: Research (example layout) -->
+  <section id="stop-2" class="section section--grid">
+    <h2>Research</h2>
+    <div class="grid">
+      <figure class="grid-item">
+        <img src="images/research-1.jpg" alt="Draped wedding dress">
+        <figcaption>Layers of the wedding dress.</figcaption>
+      </figure>
+      <figure class="grid-item">
+        <img src="images/research-2.jpg" alt="Swatches and ties">
+        <figcaption>Pinstripe suiting, florals, and ties.</figcaption>
+      </figure>
+      <!-- Add more tiles -->
+    </div>
+  </section>
+
+  <!-- Repeat similar blocks for stops 3–9 -->
+  <section id="stop-3" class="section">...</section>
+  <section id="stop-4" class="section">...</section>
+  <section id="stop-5" class="section">...</section>
+  <section id="stop-6" class="section">...</section>
+  <section id="stop-7" class="section">...</section>
+  <section id="stop-8" class="section">...</section>
+  <section id="stop-9" class="section">...</section>
+
+  <!-- Stop 10: Photoshoot -->
+  <section id="stop-10" class="section section--photos">
+    <h2>Photoshoot</h2>
+    <div class="photo-slider">
+      <img src="images/photo-1.jpg" alt="Bride alone in the carriage">
+      <!-- You can later upgrade this into a JS slider -->
+    </div>
+    <div class="ticket">
+      <p>TRAIN TICKET · YOUR TICKET IS EXPIRED</p>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
